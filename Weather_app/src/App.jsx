@@ -1,15 +1,15 @@
-import { useState } from 'react'
+
 import './App.css'
-import Button from '@mui/material/Button';
-import SearchBox from './Components/SearchBox';
+
+import WeatherApp from './Components/WeatherApp';
 
 
 function App() {
 
-
+  
   return (
     <>
-    <SearchBox/>
+    <WeatherApp/>
     </>
   )
 }
